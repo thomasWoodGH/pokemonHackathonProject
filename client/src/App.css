@@ -81,11 +81,11 @@ a:hover{
 .pokemon-info{
   padding: 20px 100px;
   text-align: center;
-  background-color: rgb(181, 84, 84);
+  background-color: rgb(171, 107, 107);
   border: 2px solid black;
   border-radius: 5px;
   width: fit-content;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .home-button-to-dex{
