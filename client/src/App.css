@@ -28,10 +28,16 @@ ul{
 .header, .footer{
   padding: 10px;
   justify-content: space-evenly;
+  align-items: center;
   text-align: center;
   background-color: rgb(181, 84, 84);
   display: flex;
-  border-radius: 10px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 96%;
 }
 
 
@@ -57,10 +63,10 @@ a:hover{
 .name-card{
   align-items: center;
   text-align: center;
-  margin: 5px 5px;
+  margin: 15px 15px;
   width: 250px;
   height: 100px;
-  background: rgb(181, 84, 84);
+  background: rgb(171, 107, 107);
   border: solid 2px black;
   border-radius: 5px;
 }
